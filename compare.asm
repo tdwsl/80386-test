@@ -4,6 +4,7 @@ section .text
 global _start
 
 _start:
+	cld
 	mov esi,string1
 	mov edi,string1_1
 	call printCpStrings
